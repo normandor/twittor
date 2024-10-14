@@ -1,5 +1,5 @@
 // imports
-importScripts('/js/sw-utils.js')
+importScripts('js/sw-utils.js')
 
 const STATIC_CACHE = "static-v2";
 const DYNAMIC_CACHE = "dynamic-v1";
@@ -23,8 +23,8 @@ const APP_SHELL_IMMUTABLE = [
   "https://fonts.googleapis.com/css?family=Quicksand:300,400",
   "https://fonts.googleapis.com/css?family=Lato:400,300",
   "https://use.fontawesome.com/releases/v5.3.1/css/all.css",
-  "/css/animate.css",
-  "/js/libs/jquery.js",
+  "css/animate.css",
+  "js/libs/jquery.js",
 ];
 
 self.addEventListener("install", (e) => {
